@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+#barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.logo img {
+    height: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 150px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 1px 1px rgba(28, 28, 28, 0.508)
+
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#primerosparrafos{
+    margin: 64px 0 64px 0;
+    overflow-wrap: break-word;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#textointro{
+    text-align: center;
+}
+.producto {
+    background-color: white;
+    border-radius: 48px;
+    box-shadow: 3px 3px 3px 3px rgba(47, 47, 47, 0.508);
+    max-width: 400px;
+    margin: 24px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.producto-imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.producto-titulo {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.producto-descripcion {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.producto-icono {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.boton-whatsapp {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 140px;
+    font-size: 18px;
+}
+
+.boton-whatsapp:hover {
+    background-color: #20b858;
+}
+
+#baseproducto{
+    margin: 14px;
+}
+
+#primerosparrafos2{
+    margin: 64px 48px 64px 48px;
+}
